@@ -1,0 +1,156 @@
+* {
+  font-family:"Karma", sans-serif ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+  }
+  ul{
+    list-style: none;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  /* start header */
+  header {
+    z-index: 999;
+    background-attachment: scroll;
+    display: flex;
+justify-content: space-between;
+padding: 1em 6em   ;
+font-size: 25px;
+font-weight: 400;
+}
+header a {
+  color: black;
+}
+header div li {
+
+  background-color: #e3e3e3;
+}
+header div li a {
+  text-decoration: none;
+  margin-top: 5px;
+  width: 200px;
+  padding-left: 5px;
+  display: none ;
+} 
+header div:hover li a  {
+  display : inline-block ;
+}
+/* end header */
+
+/* start food section */
+section.food { 
+  padding: 0 5em;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section.food div {
+  padding-top: 20px;
+  width: 300px;
+}
+section.food img {
+  width: 250px;
+  height: 400px;
+}
+/* end food section */
+nav{ 
+  display :flex;
+  justify-content: center;
+  text-align: center;
+}
+nav div{
+  font-size: 25px;
+  width: 50px;
+  margin-top: 20px;
+}
+nav div a {
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+}
+nav :hover { 
+  background-color: black;
+  color:white;
+} 
+/* start section Abot  */
+section.abot h3{
+  display: flex;
+  font-size: 2em;
+  font-weight: 400;
+justify-content: center;
+padding-top: 100px;
+}
+section.abot img {
+  position: relative;
+  padding-top: 20px;
+  left: 25%;
+}
+section.abot  div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 5em;
+}
+/* end Abot section */
+/* start footer */
+footer {
+  padding-top: 40px;
+  display: flex;
+  margin-left: 10%;
+  justify-content: space-between;
+}
+footer div {
+  width:100%;
+}
+footer div :hover{
+background-color: #ddd;
+}
+footer div div {
+  flex-direction: column;
+  display: flex;
+}
+footer div img { 
+  width: 60px;
+}
+footer div div p {
+  display: block;
+}
+footer .three span { 
+  width: 80px;
+  padding: 5px;
+  display: inline-block;
+    background-color: #616161!important;
+  border:1px solid #eee  ;
+  margin: 10px; 
+  color: white;
+}
+footer div #active { 
+  background-color: black;
+}
+/* footer end  */
